@@ -30,6 +30,9 @@ handler may return a `Response` while tasks are still running, resources are sti
 body is still being delivered, or explicitly deferred work has been transferred beyond the response.
 Nelo keeps those lifetimes explicit.
 
+> [!NOTE]
+> **AI usage disclosure:** AI tools were used for most of the development of Nelo.
+
 > Returning a `Response` is not the same as completing the request lifetime.
 
 ## Quick start
